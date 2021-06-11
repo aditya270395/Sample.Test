@@ -11,7 +11,7 @@ import java.io.IOException;
 public class LogingGmail {
     @FindBy(xpath="//input[@type='email']") private WebElement id;
  //  @FindBy(css="div.VfPpkd-RLmnJb") private WebElement next1;
-    @FindBy(xpath="//span[text()='Next']") private WebElement next1;
+    @FindBy(xpath="//span[@jsname='V67aGc']") private WebElement next1;
     @FindBy(xpath="//input[@name='password']") private WebElement password;
     @FindBy(xpath="//span[text()='Next']") private WebElement next2;
     public LogingGmail(WebDriver driver)
